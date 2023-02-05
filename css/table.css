@@ -1,0 +1,57 @@
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(60,0,171,1) 49%, rgba(0,0,0,1) 100%);
+  padding: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  overflow: hidden;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #df2aff;
+  border-radius: 10px;
+  box-shadow: rgb(214 4 233 / 75%) 0px 7px 25px;
+  margin: 20px auto;
+  background: #df2aff;
+}
+
+td, th {
+  border-width: 0 0 1px 0;
+  border-bottom: 1px solid #df2aff;
+  overflow: visible;
+  padding: 0.5rem 1rem;
+}
+
+th {
+  background: #111;
+  text-align: left;
+}
+
+tr {
+  background: #28156B;
+}
+
+tr:nth-child(2n-1) td {
+  background: #361D91;
+}
+
+@media screen and ( max-width: 1015px ) {
+  #stars {
+    display: none;
+  }
+}
+
+@media screen and ( max-width: 800px ) {
+  #container {
+    margin: auto;
+    padding: 1rem 0;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  p {
+    margin: auto;
+    padding: 1rem;
+  }
+}
