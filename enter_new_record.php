@@ -16,7 +16,7 @@
 
 <h1>Dream Journal: Enter New Dreams</h1>
 
-<p class="middle"><a href="journal_update.php">View entire dream journal</a></p>
+<p><a href="journal_update.php">View entire dream journal</a></p>
 
 <div id="dreams">
 
